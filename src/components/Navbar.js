@@ -109,8 +109,8 @@ const Navbar = () => {
         <nav className="flex items-center justify-center">
           <CustomLink className="mr-4" href="/" title="Home" />
           <CustomLink className="mx-4" href="/about" title="About" />
-          <CustomLink className="mx-4" href="/projects" title="Projects" />
-          <CustomLink className="ml-4" href="/articles" title="Articles" />
+          {/* <CustomLink className="mx-4" href="/projects" title="Projects" /> */}
+          {/* <CustomLink className="ml-4" href="/articles" title="Articles" /> */}
         </nav>
         <nav
           className="flex items-center justify-center flex-wrap lg:mt-2
@@ -119,18 +119,19 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://www.linkedin.com/in/progyajyotii-muukherjee-02a298243/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
           >
-            <GithubIcon />
+            {/* <GithubIcon /> */}
+            <LinkedInIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
             className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            href="https://medium.com/@progyajyoti.m"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Medium profile"
@@ -138,7 +139,7 @@ const Navbar = () => {
             <MediumIcon />
           </motion.a>
 
-          <motion.a
+          {/* <motion.a
             target={"_blank"}
             className="w-7 mx-3"
             href="https://dev.to/lilxyzz"
@@ -147,7 +148,7 @@ const Navbar = () => {
             aria-label="Checkout my Dev.to profile"
           >
             <DevIcon />
-          </motion.a>
+          </motion.a> */}
 
           <motion.a
             target={"_blank"}

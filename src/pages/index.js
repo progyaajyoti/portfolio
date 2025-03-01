@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
-import profilePic from "../../public/images/profile/Riley.png";
+import profilePic from "../../public/images/profile/progyajyoti.jpg";
 
 export default function Home() {
   return (
@@ -23,37 +23,38 @@ export default function Home() {
         className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="!pt-24 md:!pt-16 sm:!pt-28">
-          <div className="flex w-full items-start justify-between md:flex-col pt-10 pb-24">
-            <div className="w-1/2 lg:hidden md:flex flex self-center max-h-fit">
+          <div className="flex w-full items-start justify-between md:flex-col pt-0 pb-24">
+            <div className="w-1/2 lg:hidden md:flex flex self-center max-h-fit relative">
               {
                 <Image
                   priority={true}
                   src={profilePic}
                   alt="image"
-                  className="h-auto w-100"
-                  height={340}
-                  width={340}
+                  className="h-auto w-100 rounded-3xl"
+                  height={400}
+                  width={400}
                   sizes="33vw"
                 />
-              }
+              }   
+              {/* <HireMe /> */}
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hey, I’m Riley"
+                text="Hey, I’m Progyajyoti."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I create engaging web experiences.
-                </h2>
+                I craft digital experiences that fuse insight, strategy, and AI.                </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                I'm a front-end web developer at Stellar Innovations, passionate
-                about creating dynamic and user-friendly web experiences. With a
-                keen eye for design and a robust understanding of front-end and
-                back-end technologies.
+                I'm a <span className="bg-yellow-300 bg-opacity-20 px-1 rounded">Product and Strategy Developer</span> and <span className="bg-yellow-300 bg-opacity-20 px-1 rounded">Digital Innovator</span> at 2050HealthCare, passionate about building dynamic, intuitive healthcare solutions 
+                through strategic planning, market research, 
+                and AI-driven insights. With a keen focus on user feedback and iterative design, 
+                I craft transformative digital experiences that redefine healthcare engagement.
               </p>
+
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
                   href="/about/"
@@ -81,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="fixed right-8 bottom-8 inline-block md:hidden">
+        {/* <div className="fixed right-8 bottom-8 inline-block md:hidden">
           <iframe
             className="iframe"
             title="Noongar Seasonal Calendar"
@@ -91,8 +92,8 @@ export default function Home() {
             frameborder="0"
             allowfullscreen
           ></iframe>
-        </div>
-        <HireMe />
+        </div> */}
+        
       </article>
     </>
   );

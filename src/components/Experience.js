@@ -58,21 +58,30 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/lilxyzz/clay-theme"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Strategy and Product Developer"
+            company="2050HealthCare"
+            time="Oct,2024 - Current"
+            address="Bangalore"
+            companyLink="https://www.2050healthcare.com/"
+            work="At 2050HealthCare, I have the opportunity to drive digital transformation changes in our healthcare application through innovative feature planning, extensive market research, and continuous customer feedback. I work closely with cross-functional teams to identify market gaps and devise forward-thinking functionalities that not only address current industry challenges but also lay the groundwork for future growth. By leveraging cutting-edge AI technologies, I streamline user interactions and simplify complex processes, ensuring that our digital solutions remain intuitive, responsive, and effective. This role empowers me to contribute to a comprehensive product rollout strategy—from detailed planning and resource allocation to timeline management—while also developing robust business models that forecast financial viability and guide strategic investments. Ultimately, my work helps position our digital healthcare offerings at the forefront of technological advancements, driving improved patient experiences and sustainable growth."
           />
 
           <Details
-            position="Rad Tester"
-            company="Vault Technologies"
-            time="2018 - 2020"
-            address="404 Tech st"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            position="Data Scientist- Intern"
+            company="Balaji Green Technologies"
+            time="Jun,2024 - Sep,2024"
+            address="Bangalore"
+            companyLink=""
+            work="At Balaji Green Technologies, I have the opportunity to spearhead innovative projects focused on sentiment analysis and other advanced NLP initiatives. I work collaboratively with cross-functional teams to develop sophisticated algorithms that extract meaningful insights from large volumes of textual data. By leveraging state-of-the-art language models and machine learning techniques, I create solutions that accurately gauge customer sentiment and uncover hidden trends. This role not only empowers me to refine our digital strategy through data-driven insights but also ensures that our NLP applications remain at the cutting edge of technological advancements, driving improved customer engagement and strategic decision-making."
+          />
+
+            <Details
+            position="Data Scientist- Intern"
+            company="POPULARDIGITAL.AI"
+            time="Feb,2024 - May,2020"
+            address="Bangalore"
+            companyLink="https://www.populardigital.ai/"
+            work="At populardigital.ai, I had the opportunity to design and implement a comprehensive framework for no-code machine learning model building. This project was aimed at democratizing data science by enabling users to transform their raw data into actionable insights without writing a single line of code. I leveraged Streamlit to develop an interactive platform where users can effortlessly upload CSV, XLS, or XLSX files, guiding them through every stage of data processing. The framework offers extensive data visualization tools, robust data cleaning processes, and a suite of machine learning algorithms—covering all classification and regression techniques from SKlearn. Users can explore their datasets through detailed graphs, cleanse and preprocess data with ease, and ultimately build predictive models that cater to their specific needs. This initiative not only simplifies complex data science tasks but also empowers users by providing them with a user-friendly interface that bridges the gap between advanced analytics and everyday usability, ultimately driving innovation and accessibility in the field of machine learning."
           />
         </ul>
       </div>

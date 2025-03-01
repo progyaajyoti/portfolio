@@ -319,7 +319,7 @@ export default function Projects() {
                 Get To Know Me
               </Link>
             </div>
-            <HireMe2 />
+            {/* <HireMe2 /> */}
           </div>
         </Layout>
       </main>

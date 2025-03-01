@@ -1,0 +1,29 @@
+<svg width="120" height="120" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <!-- Define a circular path -->
+  <defs>
+    <path id="circlePath" d="
+      M100,100 
+      m-75,0 
+      a75,75 0 1,1 150,0 
+      a75,75 0 1,1 -150,0
+    " />
+  </defs>
+
+  <!-- Optional white background -->
+  <rect width="100%" height="100%" fill="transparent" />
+
+  <!-- Text on the circular path -->
+  <text fill="#4665FE" font-size="14" font-family="Arial, sans-serif" letter-spacing="10">
+    <!-- 
+      'startOffset' controls where the text begins along the circle.
+      'text-anchor' = 'middle' aligns the text around the center of the path.
+    -->
+    <textPath xlink:href="#circlePath" startOffset="50%" text-anchor="middle">
+      LETS GET CONNECTED HERE
+    </textPath>
+  </text>
+
+</svg>
