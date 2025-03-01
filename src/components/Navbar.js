@@ -196,7 +196,7 @@ const Navbar = () => {
               href="/about"
               title="About"
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               toggle={handleClick}
               className="mx-4 lg:m-0 lg:my-2"
               href="/projects"
@@ -213,7 +213,7 @@ const Navbar = () => {
               className="ml-4 lg:m-0 lg:my-2"
               href="/contact"
               title="Contact"
-            />
+            /> */}
           </nav>
           <nav
             className="flex items-center justify-center  mt-2
