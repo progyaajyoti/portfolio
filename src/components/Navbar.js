@@ -222,18 +222,18 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mr-3"
-              href="https://github.com/lilxyzz"
+              href="https://www.linkedin.com/in/progyajyotii-muukherjee-02a298243/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Github profile"
             >
-              <GithubIcon />
+              <LinkedInIcon />
             </motion.a>
 
             <motion.a
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full"
-              href="https://medium.com/@travis.lord"
+              href="https://medium.com/@progyajyoti.m"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Medium profile"
@@ -248,7 +248,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Dev.to profile"
             >
-              <DevIcon />
+              {/* <DevIcon /> */}
             </motion.a>
             <motion.a
               target={"_blank"}
