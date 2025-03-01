@@ -67,7 +67,7 @@ export default function Home() {
                 >
                   Get To Know Me
                 </Link>
-                <Link
+                {/* <Link
                   href="/projects/"
                   target={"_self"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-light p-2.5 px-6 text-lg font-semibold
@@ -77,7 +77,7 @@ export default function Home() {
              `}
                 >
                   projects
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

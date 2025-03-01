@@ -86,7 +86,7 @@ const Experience = () => {
         </ul>
       </div>
       <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">
-        <Link
+        {/* <Link
           href="/projects/"
           target={"_self"}
           className={`flex items-center rounded-lg border-2 border-solid bg-light p-2.5 px-6 text-lg font-semibold
@@ -107,7 +107,7 @@ const Experience = () => {
              `}
         >
           View Articles
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
