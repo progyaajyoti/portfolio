@@ -59,16 +59,16 @@ const Skills = () => {
 
 
           <Skill display={"text-center lg:block hidden"} name={<>Product<br />Management</>} x="-33vw" y="9vw" />
-          <Skill display={"text-center lg:block hidden"} name="Critical Thinking" x="-5vw" y="-15vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Critical<br />Thinking</>} x="-1vw" y="-18vw" />
           <Skill display={"text-center lg:block hidden"} name={<>Problem<br />Solving</>} x="36vw" y="12vw" />
-          <Skill display={"text-center lg:block hidden"} name="Research Skills" x="5vw" y="15vw" />
-          <Skill display={"text-center lg:block hidden"} name="Product Road Mapping" x="-24vw" y="-23vw" />
-          <Skill display={"text-center lg:block hidden"} name="Analytical Skills" x="30vw" y="-22vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Research<br />Skills</>} x="5vw" y="18vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Product<br />Road Mapping</>} x="-27vw" y="-28vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Analytical<br />Skills</>} x="30vw" y="-22vw" />
           <Skill display={"text-center lg:block hidden"} name={<>Machine<br />Learning</>}x="-36vw" y="-5vw" />
           <Skill display={"text-center lg:block hidden"} name={<>Deep<br />Learning</>} x="36vw" y="-5vw" />
-          <Skill display={"text-center lg:block hidden"} name="Strategic Planning" x="0vw" y="-33vw" />
-          <Skill display={"text-center lg:block hidden"} name="Strategic Partnership" x="0vw" y="35vw" />
-          <Skill display={"text-center lg:block hidden"} name="Prompt Engineering" x="-25vw" y="24vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Strategic<br />Planning</>} x="0vw" y="-36vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Strategic<br />Partnership</>} x="0vw" y="35vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Prompt<br />Engineering</>} x="-25vw" y="24vw" />
           <Skill display={"text-center lg:block hidden"} name="Generative AI" x="30vw" y="24vw" />
       
 
