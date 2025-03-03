@@ -41,18 +41,18 @@ const Skills = () => {
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         "
         >
-          Strategy and Product Development
+          <center> Strategy <br/>and <br/>Product Development</center>
         </motion.div>
 
-        <Skill name="Product Management" x="-20vw" y="2vw" />
-        <Skill name="Critical Thinking" x="-5vw" y="-10vw" />
-        <Skill name="Problem Solving" x="20vw" y="6vw" />
-        <Skill name="Research Skills" x="0vw" y="12vw" />
-        <Skill name="Product Road Mapping" x="-20vw" y="-15vw" />
-        <Skill name="Analytical Skills" x="15vw" y="-12vw" />
+        <Skill name="Product Management" x="-25vw" y="2vw" />
+        <Skill name="Critical Thinking" x="-5vw" y="-12vw" />
+        <Skill name="Problem Solving" x="24vw" y="6vw" />
+        <Skill name="Research Skills" x="5vw" y="15vw" />
+        <Skill name="Product Road Mapping" x="-24vw" y="-15vw" />
+        <Skill name="Analytical Skills" x="18vw" y="-15vw" />
         <Skill name="Machine Learning" x="-35vw" y="-5vw" />
         <Skill name="Deep Learning" x="32vw" y="-5vw" />
-        <Skill name="Strategic Planning" x="0vw" y="-20vw" />
+        <Skill name="Strategic Planning" x="0vw" y="-22.5vw" />
         <Skill name="Strategic Partnership" x="0vw" y="25vw" />
         <Skill name="Prompt Engineering" x="-25vw" y="18vw" />
         <Skill name="Generative AI" x="28vw" y="18vw" />
