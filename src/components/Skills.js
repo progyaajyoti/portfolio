@@ -44,32 +44,32 @@ const Skills = () => {
           <center> Strategy <br />and <br />Product Development</center>
         </motion.div>
       
-          <Skill display={"lg:hidden"} name="Product Management" x="-25vw" y="2vw" />
-          <Skill display={"lg:hidden"} name="Critical Thinking" x="-5vw" y="-12vw" />
-          <Skill display={"lg:hidden"} name="Problem Solving" x="24vw" y="6vw" />
-          <Skill display={"lg:hidden"} name="Research Skills" x="5vw" y="15vw" />
-          <Skill display={"lg:hidden"} name="Product Road Mapping" x="-24vw" y="-15vw" />
-          <Skill display={"lg:hidden"} name="Analytical Skills" x="18vw" y="-15vw" />
-          <Skill display={"lg:hidden"} name="Machine Learning" x="-35vw" y="-5vw" />
-          <Skill display={"lg:hidden"} name="Deep Learning" x="32vw" y="-5vw" />
-          <Skill display={"lg:hidden"} name="Strategic Planning" x="0vw" y="-22.5vw" />
-          <Skill display={"lg:hidden"} name="Strategic Partnership" x="0vw" y="25vw" />
-          <Skill display={"lg:hidden"} name="Prompt Engineering" x="-25vw" y="18vw" />
-          <Skill display={"lg:hidden"} name="Generative AI" x="28vw" y="18vw" />
+          <Skill display={"text-center lg:hidden"} name="Product Management" x="-25vw" y="2vw" />
+          <Skill display={"text-center lg:hidden"} name="Critical Thinking" x="-5vw" y="-12vw" />
+          <Skill display={"text-center lg:hidden"} name="Problem Solving" x="24vw" y="6vw" />
+          <Skill display={"text-center lg:hidden"} name="Research Skills" x="5vw" y="15vw" />
+          <Skill display={"text-center lg:hidden"} name="Product Road Mapping" x="-24vw" y="-15vw" />
+          <Skill display={"text-center lg:hidden"} name="Analytical Skills" x="18vw" y="-15vw" />
+          <Skill display={"text-center lg:hidden"} name="Machine Learning" x="-35vw" y="-5vw" />
+          <Skill display={"text-center lg:hidden"} name="Deep Learning" x="32vw" y="-5vw" />
+          <Skill display={"text-center lg:hidden"} name="Strategic Planning" x="0vw" y="-22.5vw" />
+          <Skill display={"text-center lg:hidden"} name="Strategic Partnership" x="0vw" y="25vw" />
+          <Skill display={"text-center lg:hidden"} name="Prompt Engineering" x="-25vw" y="18vw" />
+          <Skill display={"text-center lg:hidden"} name="Generative AI" x="28vw" y="18vw" />
 
 
-          <Skill display={"lg:block hidden"} name="Product Management" x="-30vw" y="9vw" />
-          <Skill display={"lg:block hidden"} name="Critical Thinking" x="-5vw" y="-15vw" />
-          <Skill display={"lg:block hidden"} name="Problem Solving" x="31vw" y="6vw" />
-          <Skill display={"lg:block hidden"} name="Research Skills" x="5vw" y="15vw" />
-          <Skill display={"lg:block hidden"} name="Product Road Mapping" x="-24vw" y="-23vw" />
-          <Skill display={"lg:block hidden"} name="Analytical Skills" x="30vw" y="-22vw" />
-          <Skill display={"lg:block hidden"} name="Machine Learning" x="-33vw" y="-5vw" />
-          <Skill display={"lg:block hidden"} name="Deep Learning" x="32vw" y="-5vw" />
-          <Skill display={"lg:block hidden"} name="Strategic Planning" x="0vw" y="-33vw" />
-          <Skill display={"lg:block hidden"} name="Strategic Partnership" x="0vw" y="30vw" />
-          <Skill display={"lg:block hidden"} name="Prompt Engineering" x="-25vw" y="20vw" />
-          <Skill display={"lg:block hidden"} name="Generative AI" x="30vw" y="18vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Product<br />Management</>} x="-33vw" y="9vw" />
+          <Skill display={"text-center lg:block hidden"} name="Critical Thinking" x="-5vw" y="-15vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Problem<br />Solving</>} x="36vw" y="12vw" />
+          <Skill display={"text-center lg:block hidden"} name="Research Skills" x="5vw" y="15vw" />
+          <Skill display={"text-center lg:block hidden"} name="Product Road Mapping" x="-24vw" y="-23vw" />
+          <Skill display={"text-center lg:block hidden"} name="Analytical Skills" x="30vw" y="-22vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Machine<br />Learning</>}x="-36vw" y="-5vw" />
+          <Skill display={"text-center lg:block hidden"} name={<>Deep<br />Learning</>} x="36vw" y="-5vw" />
+          <Skill display={"text-center lg:block hidden"} name="Strategic Planning" x="0vw" y="-33vw" />
+          <Skill display={"text-center lg:block hidden"} name="Strategic Partnership" x="0vw" y="35vw" />
+          <Skill display={"text-center lg:block hidden"} name="Prompt Engineering" x="-25vw" y="24vw" />
+          <Skill display={"text-center lg:block hidden"} name="Generative AI" x="30vw" y="24vw" />
       
 
        
