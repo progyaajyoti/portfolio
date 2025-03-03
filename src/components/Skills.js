@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
 
-const Skill = ({ name, x, y }) => {
+const Skill = ({ name, x, y, display }) => {
   const ref = useRef(null);
   return (
     <motion.div
@@ -10,10 +10,10 @@ const Skill = ({ name, x, y }) => {
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
       viewport={{ once: true }}
-      className="cursor-default w-max origin-center absolute 
+      className={`cursor-default w-max origin-center absolute 
        font-semibold bg-dark text-light py-3 px-6 rounded-full dark:bg-light dark:text-dark
        lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3  xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold
-       "
+         ${display}`}
     >
       {name}
     </motion.div>
@@ -41,21 +41,38 @@ const Skills = () => {
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         "
         >
-          <center> Strategy <br/>and <br/>Product Development</center>
+          <center> Strategy <br />and <br />Product Development</center>
         </motion.div>
+      
+          <Skill display={"lg:hidden"} name="Product Management" x="-25vw" y="2vw" />
+          <Skill display={"lg:hidden"} name="Critical Thinking" x="-5vw" y="-12vw" />
+          <Skill display={"lg:hidden"} name="Problem Solving" x="24vw" y="6vw" />
+          <Skill display={"lg:hidden"} name="Research Skills" x="5vw" y="15vw" />
+          <Skill display={"lg:hidden"} name="Product Road Mapping" x="-24vw" y="-15vw" />
+          <Skill display={"lg:hidden"} name="Analytical Skills" x="18vw" y="-15vw" />
+          <Skill display={"lg:hidden"} name="Machine Learning" x="-35vw" y="-5vw" />
+          <Skill display={"lg:hidden"} name="Deep Learning" x="32vw" y="-5vw" />
+          <Skill display={"lg:hidden"} name="Strategic Planning" x="0vw" y="-22.5vw" />
+          <Skill display={"lg:hidden"} name="Strategic Partnership" x="0vw" y="25vw" />
+          <Skill display={"lg:hidden"} name="Prompt Engineering" x="-25vw" y="18vw" />
+          <Skill display={"lg:hidden"} name="Generative AI" x="28vw" y="18vw" />
 
-        <Skill name="Product Management" x="-25vw" y="2vw" />
-        <Skill name="Critical Thinking" x="-5vw" y="-12vw" />
-        <Skill name="Problem Solving" x="24vw" y="6vw" />
-        <Skill name="Research Skills" x="5vw" y="15vw" />
-        <Skill name="Product Road Mapping" x="-24vw" y="-15vw" />
-        <Skill name="Analytical Skills" x="18vw" y="-15vw" />
-        <Skill name="Machine Learning" x="-35vw" y="-5vw" />
-        <Skill name="Deep Learning" x="32vw" y="-5vw" />
-        <Skill name="Strategic Planning" x="0vw" y="-22.5vw" />
-        <Skill name="Strategic Partnership" x="0vw" y="25vw" />
-        <Skill name="Prompt Engineering" x="-25vw" y="18vw" />
-        <Skill name="Generative AI" x="28vw" y="18vw" />
+
+          <Skill display={"lg:block hidden"} name="Product Management" x="-30vw" y="9vw" />
+          <Skill display={"lg:block hidden"} name="Critical Thinking" x="-5vw" y="-15vw" />
+          <Skill display={"lg:block hidden"} name="Problem Solving" x="30vw" y="6vw" />
+          <Skill display={"lg:block hidden"} name="Research Skills" x="5vw" y="15vw" />
+          <Skill display={"lg:block hidden"} name="Product Road Mapping" x="-24vw" y="-23vw" />
+          <Skill display={"lg:block hidden"} name="Analytical Skills" x="30vw" y="-22vw" />
+          <Skill display={"lg:block hidden"} name="Machine Learning" x="-33vw" y="-5vw" />
+          <Skill display={"lg:block hidden"} name="Deep Learning" x="32vw" y="-5vw" />
+          <Skill display={"lg:block hidden"} name="Strategic Planning" x="0vw" y="-27vw" />
+          <Skill display={"lg:block hidden"} name="Strategic Partnership" x="0vw" y="25vw" />
+          <Skill display={"lg:block hidden"} name="Prompt Engineering" x="-25vw" y="18vw" />
+          <Skill display={"lg:block hidden"} name="Generative AI" x="30vw" y="18vw" />
+      
+
+       
       </div>
     </>
   );
