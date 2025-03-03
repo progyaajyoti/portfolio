@@ -60,15 +60,15 @@ const Skills = () => {
 
           <Skill display={"lg:block hidden"} name="Product Management" x="-30vw" y="9vw" />
           <Skill display={"lg:block hidden"} name="Critical Thinking" x="-5vw" y="-15vw" />
-          <Skill display={"lg:block hidden"} name="Problem Solving" x="30vw" y="6vw" />
+          <Skill display={"lg:block hidden"} name="Problem Solving" x="31vw" y="6vw" />
           <Skill display={"lg:block hidden"} name="Research Skills" x="5vw" y="15vw" />
           <Skill display={"lg:block hidden"} name="Product Road Mapping" x="-24vw" y="-23vw" />
           <Skill display={"lg:block hidden"} name="Analytical Skills" x="30vw" y="-22vw" />
           <Skill display={"lg:block hidden"} name="Machine Learning" x="-33vw" y="-5vw" />
           <Skill display={"lg:block hidden"} name="Deep Learning" x="32vw" y="-5vw" />
-          <Skill display={"lg:block hidden"} name="Strategic Planning" x="0vw" y="-27vw" />
-          <Skill display={"lg:block hidden"} name="Strategic Partnership" x="0vw" y="25vw" />
-          <Skill display={"lg:block hidden"} name="Prompt Engineering" x="-25vw" y="18vw" />
+          <Skill display={"lg:block hidden"} name="Strategic Planning" x="0vw" y="-33vw" />
+          <Skill display={"lg:block hidden"} name="Strategic Partnership" x="0vw" y="30vw" />
+          <Skill display={"lg:block hidden"} name="Prompt Engineering" x="-25vw" y="20vw" />
           <Skill display={"lg:block hidden"} name="Generative AI" x="30vw" y="18vw" />
       
 
